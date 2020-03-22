@@ -1,0 +1,30 @@
+@import '_vars';
+
+* {
+  font-family: 'IranSans', sans-serif;
+}
+
+body {
+  background: $whisper;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.p1 {
+  padding: 10px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
